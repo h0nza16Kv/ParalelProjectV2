@@ -29,6 +29,6 @@ class Worker:
                             'pattern': pat.pattern,
                             'match': m.group()
                         })
-
+            print("Matches added to json file")
             result_queue.put(matches)
             search_queue.task_done()
