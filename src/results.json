@@ -1,14 +1,205 @@
 [
   {
+    "file": "input.txt",
     "block": 1,
     "line": 7,
     "pattern": "error",
     "match": "Error"
   },
   {
+    "file": "input.txt",
     "block": 1,
     "line": 33,
     "pattern": "error",
     "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 1,
+    "line": 38,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "input.txt",
+    "block": 1,
+    "line": 45,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 1,
+    "line": 71,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 1,
+    "line": 76,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "input.txt",
+    "block": 1,
+    "line": 83,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 109,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 114,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 121,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 147,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 152,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 159,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 185,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 190,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "input.txt",
+    "block": 2,
+    "line": 196,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 3,
+    "line": 222,
+    "pattern": "error",
+    "match": "Error"
+  },
+  {
+    "file": "input.txt",
+    "block": 3,
+    "line": 227,
+    "pattern": "failed",
+    "match": "FAiled"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 3,
+    "pattern": "warning",
+    "match": "WARNING"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 7,
+    "pattern": "error",
+    "match": "ERROR"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 9,
+    "pattern": "warning",
+    "match": "WARNING"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 11,
+    "pattern": "error",
+    "match": "ERROR"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 11,
+    "pattern": "failed",
+    "match": "failed"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 12,
+    "pattern": "exception",
+    "match": "exception"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 12,
+    "pattern": "exception",
+    "match": "exception"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 15,
+    "pattern": "warning",
+    "match": "WARNING"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 18,
+    "pattern": "error",
+    "match": "ERROR"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 18,
+    "pattern": "failed",
+    "match": "failed"
+  },
+  {
+    "file": "another_log.txt",
+    "block": 1,
+    "line": 19,
+    "pattern": "failed",
+    "match": "FAiled"
   }
 ]

@@ -1,6 +1,6 @@
 import json
 class Aggregator:
-    def aggregator(result_queue, output_path, num_workers, STOP):
+    def aggregator(result_queue, output_path, num_workers):
         """
         Collects search results from all worker threads.
         This function reads matches from result_queue until it receives a termination signal
@@ -9,7 +9,6 @@ class Aggregator:
         :param result_queue: Entrance queue
         :param output_path: Path to the output file
         :param num_workers: Number of workers
-        :param STOP: Signal for ending the loop
         :return: None
         """
         all_matches = []
