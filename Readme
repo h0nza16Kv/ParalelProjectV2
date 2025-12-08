@@ -1,0 +1,7 @@
+How to run:
+
+    command prompt - cd full path
+    power shell - cd path
+
+    run script/project - python main.py in project directory
+    open results.json or other files .txt - notepad results.json/<name>.txt
