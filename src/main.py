@@ -40,7 +40,6 @@ def main(input_paths: list[str], output_path: str, num_workers: int, patterns: l
         result_queue.join()
     t_agg.join()
 
-    print(f"\nProcessing complete. Results written to {output_path}")
 
 
 if __name__ == "__main__":

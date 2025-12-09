@@ -31,6 +31,5 @@ class Worker:
                             'pattern': pat.pattern,
                             'match': m.group()
                         })
-            print(f"Matches added to json file from {file_path}, block {block_index + 1}")
             result_queue.put(matches)
             search_queue.task_done()

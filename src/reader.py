@@ -16,7 +16,6 @@ class Reader:
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
             except FileNotFoundError:
-                print(f"Soubor {path} nebyl nalezen.")
                 continue
 
             n = len(lines)
