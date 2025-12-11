@@ -1,8 +1,7 @@
 import re
-from config import LINES_PER_BLOCK
 
 class Worker:
-    def search_worker(search_queue, result_queue, patterns):
+    def search_worker(search_queue, result_queue, patterns, lines_per_block):
         """
         Search worker running in a thread for parallel processing
         :param search_queue: Entrance queue
@@ -27,7 +26,7 @@ class Worker:
                         matches.append({
                             'file': file_path,
                             'block':  block_index+ 1,
-                            'line': lineno + 1 + block_index * LINES_PER_BLOCK,
+                            'line': lineno + 1 + block_index * lines_per_block,
                             'pattern': pat.pattern,
                             'match': m.group()
                         })
