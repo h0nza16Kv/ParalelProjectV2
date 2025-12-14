@@ -1,6 +1,7 @@
 import re
 
 class Worker:
+    @staticmethod
     def search_worker(search_queue, result_queue, patterns, lines_per_block):
         """
         Search worker running in a thread for parallel processing

@@ -1,5 +1,5 @@
 class Reader:
-
+    @staticmethod
     def reader(paths: list[str], search_queue, num_workers, lines_per_block):
         """
         Loads files from the specified paths, divides their contents into blocks, and places them

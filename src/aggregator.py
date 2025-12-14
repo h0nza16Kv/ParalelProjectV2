@@ -1,5 +1,7 @@
 import json
+
 class Aggregator:
+    @staticmethod
     def aggregator(result_queue, output_path, num_workers):
         """
         Collects search results from all worker threads.
